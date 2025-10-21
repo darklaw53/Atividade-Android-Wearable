@@ -116,7 +116,8 @@ class _AudioHomeState extends State<AudioHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Wear OS Audio Example')),
+      appBar: AppBar(title: const Text('Wear OS'),
+      centerTitle: true),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
